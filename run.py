@@ -1,3 +1,8 @@
+# add excel saver, csv saver, docx saver
+# use oop
+# take bigger information
+# add GUI
+
 import requests
 from bs4 import BeautifulSoup
 
@@ -34,6 +39,10 @@ except:
 f = open('output.txt', 'w')
 
 s=0
+
+
+
+
 for i in range(1, int(pagesNum)):
     try:
         r = requests.get(URL+str(i))
